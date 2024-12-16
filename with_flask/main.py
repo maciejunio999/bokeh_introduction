@@ -46,7 +46,6 @@ def homepage():
     ) 
   
     script1, div1 = components(p1)
-    print(script1, div1)
 
     script2, div2 = components(p2) 
     script3, div3 = components(p3) 
@@ -61,5 +60,5 @@ def homepage():
   
 # Main Driver Function 
 if __name__ == '__main__': 
-    # Run the application on the local development server 
+    # Run the application on the local development server
     app.run() 
